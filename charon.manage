@@ -1,0 +1,8 @@
+#!/bin/sh
+
+if [ $# -ne 2 ]; then
+	echo "usage: charon.manage <resource-to-be-managed-path> <charon-containing-folder>"
+	exit
+fi
+
+java -cp bin charon.directoryService.externalManagement.AddExternalManagedClient ADD $1 $2

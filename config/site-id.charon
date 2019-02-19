@@ -1,0 +1,18 @@
+# ============= PEER 5 ===========================
+name=
+id=
+email=
+addr=
+
+driver.type=AMAZON-S3
+canonicalId=
+
+driver.type=GOOGLE-STORAGE
+canonicalId=
+
+driver.type=RACKSPACE
+canonicalId=
+
+driver.type=WINDOWS-AZURE
+canonicalId=
+# ================================================
