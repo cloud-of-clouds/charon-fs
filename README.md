@@ -5,20 +5,15 @@ Charon is a POSIX-like data-centric cloud-backed file system designed to store a
 ## Getting Started
 
 ### Pre-requisites
-wefawefwef
-fwer
-fwe
-rf
+Charon is implemented in Java as a FUSE file system (file system in userspace). Before installing and running Charon make sure your environment matches the following requisites:
+- Linux platform
+- at least java 7 installed
+- fuse library installed (sudo apt-get install libfuse-dev)
 
 ### Install/Configuration
-weffeqr
-fwrf
-wer
-wr
+1. The first step is to install the software.
+
+`./install.sh`
+
 
 ### Run
-fqwre
-fr
-fgwer
-fwr
-f
