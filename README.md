@@ -1,5 +1,6 @@
-# charon-fs
-Charon is a data-centric cloud-backed file system tailored for big-data storage. 
+### Charon-FS
+Charon is a POSIX-like data-centric cloud-backed file system designed to store and share big data in a secure, reliable and efficient way using multiple cloud providers.
 
-#in progress
-#############
+
+### Getting Started with SCFS 
+**
