@@ -29,11 +29,23 @@ To help you finding the API credentials to use in Charon please follow the tips 
 ### Setup
 
 ##### Install
-The first step is to install the software.
+To install Charon just run the script below.
 
 `$ ./install.sh`
 
 ##### Configuration
+
+To run Charon you must fill two configuration files: `depsky.config` and `charon.config`
+
+* `depsky.config`: fill the `accessKey` and `secretKey` attributes with the cloud credentials of each one of the cloud storage providers.
+
+* `charon.config`:
+  * `CLIENT_ID` -
+  * `client.name` - 
+  * `mount.point` -
+  * `email` -
+  * `addr` -
+  * `personal.namespace.id` -
 
 
 
