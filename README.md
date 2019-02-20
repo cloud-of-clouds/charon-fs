@@ -3,7 +3,7 @@ Charon-FS is a POSIX-like data-centric cloud-backed file system designed to stor
 
 The main charecteristcis of Charon-FS are:
 
-1. **Ensures the availability, confidentiality and integrity of all the system's data and metadata using the DepSky cloud-of-clouds**. DepSky protocols use Byzantine quoruns protocols together with erasure codes and secret sharing to store encoded data blocks in several cloud storage providers. (more info in the [DepSky](https://github.com/cloud-of-clouds/depsky) page).
+1. **Ensures the availability, confidentiality and integrity of all the system's data and metadata using the DepSky cloud-of-clouds**. DepSky protocols use Byzantine quoruns protocols together with erasure codes and secret sharing to store encoded data blocks in several cloud storage providers (more info in the [DepSky](https://github.com/cloud-of-clouds/depsky) page).
 2. **Supports big files**. To do that, it brakes entire files into small chunks (e.g. 16MB) and send them in parallel to the cloud-of-clouds.
 4. **Avoid write-write conflicts**. Charon emploies a new data-centric lease protocol designed above the cloud-ofclouds. This protocol ensure that only a user at a time is able to write to a shared folders while other users can still read it.
 3. **It is serverless**. The system does not require any VM or service running on the cloud providers. All the protocols run at the client side interacting directly with the providers' object storage services.
