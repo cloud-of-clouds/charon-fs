@@ -1,11 +1,4 @@
-#!/bin/sh
-
-
-# ./C2F2_mount.sh 'pasta para mount' 'id'
-# args: 1 - nome do mount
-#       2 - id utilizador
-
-#para fazer dubug pelo eclipse: -Xdebug -Xrunjdwp:transport=dt_socket,server=y,address=8888,suspend=y 
+#!/bin/sh 
 
 . ./build.conf
 
