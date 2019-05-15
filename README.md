@@ -63,4 +63,4 @@ If you want to delete all the data that Charon-FS have stored in your cloud prov
 
 ### License
 
-This project is licensed under the GNU General Public License v2.0. Please see [LICENSE](https://github.com/cloud-of-clouds/charon-fs/blob/master/LICENSE) for more information.
+This project is licensed under the GNU General Public License v2.0. Please see the [LICENSE](https://github.com/cloud-of-clouds/charon-fs/blob/master/LICENSE) for more information.
