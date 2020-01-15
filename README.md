@@ -16,7 +16,7 @@ The main charecteristcis of Charon-FS are:
 ##### Environment
 Charon-FS is implemented in Java as a FUSE file system (file system in userspace). Before installing and running Charon-FS make sure your environment matches the following requisites:
 - [x] Linux platform
-- [x] java 7+
+- [x] java 8+
 - [x] fuse library (`$ sudo apt-get install libfuse-dev`)
 
 ##### Cloud Storage Providers
@@ -36,9 +36,7 @@ To help you finding the API credentials to use in Charon-FS please follow the ti
 ### Setup
 
 ##### Install
-To install Charon-FS just run the script below.
-
-`$ ./install.sh`
+To install Charon-FS just pull the code to your local machine.
 
 ##### Configuration
 
