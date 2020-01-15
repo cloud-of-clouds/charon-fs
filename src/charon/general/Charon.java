@@ -62,7 +62,6 @@ import org.apache.commons.io.FileUtils;
  */
 public class Charon implements Filesystem3, XattrSupport {
 
-	
 	private int numRead;
 	private String lastReadPath;
 
