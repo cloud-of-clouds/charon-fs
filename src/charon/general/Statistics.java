@@ -82,7 +82,6 @@ public class Statistics {
         if (reseted) {
             init();
         }
-
         putMeta++;
         timePutMeta += time;
         endPoint = System.currentTimeMillis();
@@ -92,7 +91,6 @@ public class Statistics {
         if (reseted) {
             init();
         }
-
         delMeta++;
         timeDelMeta += time;
         endPoint = System.currentTimeMillis();
